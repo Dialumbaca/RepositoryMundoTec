@@ -1,0 +1,544 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container-header{
+    width: 100%;
+    height: 150vh;
+    background-image: url(../images/welcome-hero/welcome-banner.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.subContainer-header{
+    width: 100%;
+    height: 150vh;
+    background-color: rgba(44, 44, 240, 0.322);
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    
+}
+header h1{
+    color: white;
+    font-size: 14pt;
+    cursor: pointer;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+}
+header nav ul li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none; 
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12pt;
+}
+header nav ul li a:hover{
+    color: rgb(37, 102, 243);
+}
+.firstInfo{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.firstInfo p{
+    width: 570px;
+    text-align: center;
+    font-size: 14pt;
+    margin: 40px 0px 0px 60px;
+}
+.firstInfo button{
+    width: 170px;
+    height: 60px;
+    background-color: rgba(45, 45, 245, 0.952);
+    border: 0;
+    color: white;
+    font-size: 14pt;
+    margin-top: 30px;
+}
+.middleInfo{
+    background-color: white;
+    width: 88%;
+    height: 50vh;
+    margin-left: 80px;
+    margin-top: 190px;
+    box-shadow: 0px 4px 6px 2px rgb(230, 228, 228);
+}
+.serviceCars{
+    margin-top: 250px;
+}
+.serviceCars{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.serviceCars{
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+    height: 370px;
+    display: grid;
+    grid-template-areas: 
+        "sectionCar1 sectionCar2  sectionCar3" 
+    ;
+    gap: 15px;
+}
+.serviceCars p{
+    width: 270px;
+    font-size: 11pt;
+    text-align: center;
+}
+#sectionCar1{
+    background-color: rgb(255, 255, 255);
+    grid-area: sectionCar1;
+    box-shadow: 0 2px 3px #333;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sectionCar1 h1{
+    margin-bottom: 20px;
+    font-size: 13pt;
+}
+#sectionCar1:hover{
+    background-color: rgba(45, 45, 245, 0.952);
+    color: white;
+    #line{
+        background-color: white;
+    }
+}
+#sectionCar1 .line:hover{
+    color: white;
+}
+
+#sectionCar2{
+    background-color: rgb(255, 255, 255);
+    grid-area: sectionCar2;
+    box-shadow: 0 2px 3px #333;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sectionCar2 h1{
+    margin-bottom: 20px;
+    font-size: 13pt;
+}
+#sectionCar2:hover{
+    background-color: rgba(45, 45, 245, 0.952);
+    color: white;
+    #line{
+        background-color: white;
+    }
+}
+#sectionCar3{
+    background-color: rgb(255, 255, 255);
+    grid-area: sectionCar3;
+    box-shadow: 0 2px 3px #333;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sectionCar3 h1{
+    margin-bottom: 20px;
+    font-size: 13pt;
+}
+#sectionCar3:hover{
+    background-color: rgba(45, 45, 245, 0.952);
+    color: white;
+    #line{
+        background-color: white;
+    }
+}
+.imgService{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 50px;
+}
+#line{
+    background-color: rgba(45, 45, 245, 0.952);
+    height: 5px;
+    width: 35px;
+    margin-top: 30px;
+}
+
+.newsCar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    background-color: rgb(245, 241, 241);
+    width: 100%;
+}
+.title-newsCar{
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    #lineNewsCar{
+        width: 90px;
+        height: 2px;
+        background-color: rgba(45, 45, 245, 0.952);
+    }
+}
+
+.sub-newsCar{
+    display: flex;
+    justify-content: space-around;
+}
+#sectionNewsCar1{
+    margin-left: 100px;
+    margin-top: 120px;
+    margin-bottom: 150px;
+}
+#sectionNewsCar2{
+    margin-left: 50px;
+    margin-right: 90px;
+    margin-top: 120px;
+    margin-bottom: 150px;
+}
+#sectionNewsCar2 h1{
+    margin-bottom: 30px;
+}
+#sectionNewsCar2 p{
+    margin-bottom: 30px;
+}
+#sectionNewsCar2 button{
+    width: 170px;
+    height: 60px;
+    background-color: rgba(45, 45, 245, 0.952);
+    border: 0;
+    color: white;
+    font-size: 14pt;
+}
+.featuredCar{
+    display: flex;
+    flex-direction: column;
+}
+.featuredCar h1{
+    text-align: center; 
+}
+.featuredCar p{
+    text-align: center; 
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+.title-featuredCar{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    #lineFeaturedCar{
+        width: 90px;
+        height: 2px;
+        background-color: rgba(45, 45, 245, 0.952);
+    }
+}
+
+.sub-featuredCar{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    height: 220px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+
+    display: grid;
+    grid-template-areas: 
+        "featuredCar1 featuredCar2 featuredCar3 featuredCar4" 
+    ;
+    gap: 15px;
+}
+#featuredCar1{
+    background-color: rgb(255, 255, 255);
+    grid-area: featuredCar1;
+    border: 1px solid #8f8b8b;
+}
+#featuredCar2{
+    background-color: rgb(255, 255, 255);
+    grid-area: featuredCar2;
+    border: 1px solid #8f8b8b;
+}
+#featuredCar3{
+    background-color: rgb(255, 255, 255);
+    grid-area: featuredCar3;
+    border: 1px solid #8f8b8b;
+}
+#featuredCar4{
+    background-color: rgb(255, 255, 255);
+    grid-area: featuredCar4;
+    border: 1px solid #8f8b8b;
+}
+
+.sub-featuredCar2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 50px;
+
+    display: grid;
+    grid-template-areas: 
+        "featuredCar5 featuredCar6 featuredCar7 featuredCar8" 
+    ;
+    gap: 15px;
+}
+#featuredCar5{
+    background-color: rgb(255, 255, 255);
+    grid-area: featuredCar5;
+    margin-left: 45px;
+    margin-right: 45px;
+    h3{
+        font-size: 11pt;
+        margin-bottom: 10px;
+    }
+    p{
+        margin: 0; 
+        text-align: start; 
+        margin-top: 10px;
+    }
+}
+#featuredCar6{
+    background-color: rgb(255, 255, 255);
+    grid-area: featuredCar6;
+    margin-right: 45px;
+    h3{
+        font-size: 11pt;
+        margin-bottom: 10px;
+    }
+    p{
+        margin: 0; 
+        text-align: start; 
+        margin-top: 10px;
+    }
+}
+#featuredCar7{
+    background-color: rgb(255, 255, 255);
+    grid-area: featuredCar7;
+    margin-right: 45px;
+    h3{
+        font-size: 11pt;
+        margin-bottom: 10px;
+    }
+    p{
+        margin: 0; 
+        text-align: start; 
+        margin-top: 10px;
+    }
+}
+#featuredCar8{
+    background-color: rgb(255, 255, 255);
+    grid-area: featuredCar8;
+    margin-right: 45px;
+    h3{
+        font-size: 11pt;
+        margin-bottom: 10px;
+    }
+    p{
+        margin: 0; 
+        text-align: start; 
+        margin-top: 10px;
+    }
+}
+
+.clientSay{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 241, 241);
+    margin-bottom: 50px;
+    height: 85%;
+}
+.title-client{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    #lineClientSay{
+        width: 90px;
+        height: 2px;
+        background-color: rgba(45, 45, 245, 0.952);
+    }
+}
+.clientContent{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    height: 220px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.clients{
+    border: 1px solid #000;
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    height: 310px;
+    width: 100%;
+    p, h3{
+        color: #5f5d5d;
+        margin-top: 20px;
+    }
+}
+.clients:hover{
+    background-color: rgba(45, 45, 245, 0.952);
+    p, h3{
+        color: white;
+    }
+}
+
+.brands{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+.brands img{
+    margin-bottom: 100px;
+}
+.contact{
+    background-color: rgb(65, 65, 134);
+    width: 100%;
+    height: 60%;
+    color: white;
+}
+.sub-contact{
+    margin-bottom: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.rows-one{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.container-rows-one{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.cantainer-one{
+    width: 250px;
+    font-size: 10pt;
+    margin-right: 50px;
+}
+.cantainer-one h1{
+    margin-bottom: 35px;
+}
+.cantainer-one p{
+    margin-bottom: 20px;
+}
+.container-two{
+    
+    margin-right: 30px;
+}
+.container-two h4{
+    margin-bottom: 35px;
+}
+.container-two p{
+    margin-bottom: 20px;
+    font-size: 10pt;
+    cursor: pointer;
+    width: 110px;
+}
+.container-two p:hover{
+    margin-left: 13px;
+}
+.container-three{
+    margin-right: 30px;
+}
+.container-three h4{
+    margin-bottom: 35px;
+}
+.container-three p{
+    margin-bottom: 20px;
+    font-size: 10pt;
+    cursor: pointer;
+}
+.container-three p:hover{
+    margin-left: 13px;
+}
+.container-four{
+    margin-top: 55px;
+    margin-right: 50px;
+}
+.container-four p{
+    margin-bottom: 20px;
+    font-size: 10pt;
+    cursor: pointer;
+}
+.container-four p:hover{
+    margin-left: 13px;
+}
+.subcontainer-rows-two{
+    margin-top: 100px;
+}
+.subcontainer-one{
+    width: 250px;
+}
+.subcontainer-one h4{
+    margin-bottom: 35px;
+}
+.subcontainer-one p{
+    margin-bottom: 20px;
+    font-size: 10pt;
+}
+#emailContact{
+    width: 230px;
+    height: 30px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    font-size: 10pt;
+    background-color: rgb(58, 58, 119);
+    box-shadow: 0px 1px 1px 1px;
+}
+.rows-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+.copy{
+    margin-top: 20px;
+}
+.copy p{
+    font-size: 10pt;
+}
+.social{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
